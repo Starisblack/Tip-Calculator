@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+     <div class="head-text">
+       <h1>SPLI
+         TTER</h1>
+     </div>
+
+    <div class="main-container">
+      <div class="container1">
+
+        <div class="bill">
+          <p>Bill</p>
+        </div>
+
+        <div class="amt-input">
+            <input class="input1" id="note" type="number" name="" placeholder="0">
+        </div>
+
+        <div class="tip">
+          <p>Select Tip %</p>
+      </div>
+
+        <div class="tip-button">
+           <button class="btn" type="button" value="0.05">5%</button>
+            <button class="btn" type="button" value="0.10">10%</button>
+            <button class="btn" type="button" value="0.15">15%</button>
+            <button class="btn" type="button" value="0.25">25%</button>
+            <button class="btn" type="button" value="0.50">50%</button>
+            <input class="custom" type="number" name="" placeholder="Custom">
+          </div>
+
+          <div class="number">
+            <p>Number of People</p>
+          </div>
+
+            <div class="number-input">
+              <input class="input1" id="people" type="number" name="" placeholder="0">
+            </div>
+
+        </div>
+
+        <div class="container2">
+          <div class="tip-amt">
+
+            <div class="text">
+              <p>Tip Amount</p>
+              <p class="pp"> / person </p>
+            </div>
+            <div class="tip-person">
+              <p>$0.00</p>
+            </div>
+
+          </div>
+
+          <div class="tip-amt">
+
+            <div class="text">
+              <p>Total</p>
+              <p class="pp"> / person </p>
+            </div>
+            <div class="total-cash">
+              <p>$0.00</p>
+            </div>
+
+          </div>
+
+          <button class="reset" type="button" name="button">RESET</button>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ogunniyi Samuel</a>.
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

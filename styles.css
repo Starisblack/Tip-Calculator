@@ -1,0 +1,190 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: hsl(185, 41%, 84%);
+  font-family: 'Space Mono', monospace;
+}
+
+.head-text{
+  width: 20%;
+  margin: 0 auto;
+}
+
+h1{
+  color: hsl(186, 14%, 43%);
+  letter-spacing: 1rem;
+}
+
+.main-container{
+ background-color: white;
+  border-radius: 20px;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container1{
+  background-color: white;
+  width: 90%;
+  margin: 5% auto;
+  color: hsl(183, 100%, 15%);
+  text-align: left;
+}
+
+p{
+  margin: 0;
+}
+
+input{
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+}
+
+input::placeholder{
+  text-align: right;
+}
+input:focus{
+  border: solid hsl(172, 67%, 45%);
+}
+
+.amt-input{
+  position: relative;
+}
+
+.input1{
+  height: 40px;
+  width: 97%;
+  background-color: hsl(185, 41%, 84%);
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/2150/2150150.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+  opacity: 0.6;
+}
+
+.tip-button{
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  width: 80%;
+  grid-gap: 10px;
+  margin-bottom: 35px;
+}
+
+.tip{
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 21px;
+  background: hsl(183, 100%, 15%);
+  padding: 10px 33px 10px 33px;
+  text-decoration: none;
+  border: none;
+}
+
+.custom{
+  font-size: 21px;
+  width: 117px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(185, 41%, 84%);
+}
+
+.btn:hover {
+  color: hsl(183, 100%, 15%);
+  background:hsl(185, 41%, 84%);
+  text-decoration: none;
+}
+
+.people{
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1077/1077114.png");
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+  background-size: 20px;
+  opacity: 0.6;
+}
+
+.container2{
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 15px;
+
+}
+
+.tip-amt{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+  color: white;
+}
+
+.tip-person{
+  font-size: 2.5rem;
+  color: hsl(172, 67%, 45%);
+}
+
+.total-cash{
+  font-size: 2.5rem;
+  color: hsl(172, 67%, 45%);
+}
+
+.text{
+  text-align: left;
+  margin-left: 20px;
+}
+.pp{
+  opacity: 50%;
+}
+
+
+.reset {
+  border: none;
+  border-radius: 8px;
+  color: hsl(183, 100%, 15%);
+  font-size: 31px;
+  background: hsl(172, 67%, 45%);
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.reset:hover {
+  background: hsl(185, 41%, 84%);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-container{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container2{
+    padding-bottom: 20px;
+
+  }
+
+  .tip-button{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    width: 80%;
+    grid-gap: 10px;
+    margin: 0 auto 35px auto;
+  }
+
+}
