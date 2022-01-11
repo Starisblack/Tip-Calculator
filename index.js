@@ -17,10 +17,6 @@ document.querySelector(".reset").addEventListener("click", resetCal);
 
 function billCal() {
   billInput = Number(bill.value);
-
-  if(billInput === 23 ){
-    alert ("You're turning 23 by march 23rd, 2022. I don't want to wish happy birthday as a friend but as your lover. i love you💕. My plan is to be with you forever♾️. From Sammibear🐻");
-  }
   document.querySelector(".total-cash").innerHTML = "$" + billInput.toFixed(2);
 }
 
