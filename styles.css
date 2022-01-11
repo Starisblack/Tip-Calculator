@@ -188,3 +188,27 @@ input:focus{
   }
 
 }
+
+@media screen and (max-width: 400px) {
+
+  .container2{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  .tip-button{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    width: 80%;
+    grid-gap: 10px;
+    margin: 0 10px 35px 10px;
+  }
+
+  .custom{
+
+    width: 100px;
+
+  }
+
+}
