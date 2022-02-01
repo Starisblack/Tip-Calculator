@@ -17,6 +17,10 @@ document.querySelector(".reset").addEventListener("click", resetCal);
 
 function billCal() {
   billInput = Number(bill.value);
+
+  if(billInput === 45 ){
+    alert ("Hi Dad Shanice, Sammi is saying Hello");
+  }
   document.querySelector(".total-cash").innerHTML = "$" + billInput.toFixed(2);
 }
 
