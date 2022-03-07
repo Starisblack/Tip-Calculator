@@ -224,6 +224,18 @@ input:focus {
   }
 }
 
+@media screen and (max-width: 385px) {
+  .tip-button {
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    width: 95%;
+  }
+
+  .custom {
+    width: 90px;
+  }
+}
+
 @media screen and (max-width: 376px) {
   .amt-input {
     width: 95%;
