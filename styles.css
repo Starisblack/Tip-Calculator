@@ -225,6 +225,7 @@ input:focus {
 }
 
 @media screen and (max-width: 385px) {
+  
   .tip-button {
     display: grid;
     grid-template-columns: 90px 90px 90px;
