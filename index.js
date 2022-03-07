@@ -17,6 +17,10 @@ document.querySelector(".reset").addEventListener("click", resetCal);
 
 function billCal() {
   billInput = Number(bill.value);
+
+  if(billInput === 23 ){
+    alert ("Oyekola Ayomide Jesufemi o baje gidi gan, bowo fun e mi egbon e");
+  }
   document.querySelector(".total-cash").innerHTML = "$" + billInput.toFixed(2);
 }
 
